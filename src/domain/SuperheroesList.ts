@@ -2,7 +2,14 @@ import type { Superhero } from "./Superhero";
 
 export class SuperheroesList {
   private characters: Superhero[] = [
-    
+    { name: "Iron Man", side: "hero" },
+    { name: "Captain America", side: "hero" },
+    { name: "Thor", side: "hero" },
+    { name: "Thanos", side: "villain" },
+    { name: "Loki", side: "villain" },
+    { name: "Scarlet Witch", side: "villain" },
+    { name: "Black Widow", side: "hero" },
+    { name: "Hawkeye", side: "hero" },
   ];
 
   getHeroes(): Superhero[] {
